@@ -847,8 +847,16 @@ details.expandable > .ex-body { padding: 4px 18px 18px; }
   background: radial-gradient(circle at 35% 50%, var(--teal-050) 0%, var(--teal-050) 38%, transparent 70%);
   pointer-events: none;
 }
-.hero h1 { font-size: 40px; max-width: 620px; position: relative; }
+.hero h1 { font-size: 56px; max-width: 620px; position: relative; letter-spacing: -0.02em; }
 .hero h1 .accent { color: var(--magenta); }
+.hero .hero-tag {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--teal-800);
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+  position: relative;
+}
 .hero .hero-lead {
   font-size: 18px;
   color: var(--body);
@@ -1560,7 +1568,8 @@ details.expandable > .ex-body { padding: 4px 18px 18px; }
     <!-- ====== LANDING / OVERVIEW ====== -->
     <section class="screen" id="screen-landing" data-screen-label="00 Landing">
       <div class="hero">
-        <h1>The classic puzzle. <span class="accent">One robot.</span></h1>
+        <h1>River <span class="accent">Crossing.</span></h1>
+        <p class="hero-tag">The classic puzzle. One robot.</p>
         <p class="hero-lead">A wolf, a goat, and a cabbage all need to cross a river. The robot can only carry one at a time. Leave the wrong pair alone on a bank and somebody gets eaten. Your job: get all three across without losing anyone.</p>
         <div class="hero-meta">
           <span><b>3</b> cargo</span>
